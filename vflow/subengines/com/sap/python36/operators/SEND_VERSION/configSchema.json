@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$id": "http://sap.com/vflow/SEND_VERSION.configSchema.json",
+    "type": "object",
+    "properties": {
+        "codelanguage": {
+            "type": "string"
+        },
+        "script": {
+            "type": "string"
+        },
+        "version": {
+            "title": "Version",
+            "description": "Version",
+            "type": "string"
+        }
+    },
+    "required": [
+        "version"
+    ]
+}
